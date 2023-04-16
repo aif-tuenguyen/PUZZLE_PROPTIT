@@ -1,4 +1,4 @@
-[ProPTIT Puzzle] {Service Name} - Track: Smart Fintech Assistant 
+[ProPTIT Puzzle] NLU-SPEAKER BIO METRICS - Track: Smart Fintech Assistant 
 ==============================
 
 What Is This?
@@ -31,7 +31,7 @@ This is a simple Python/FastAPI application intended to provide a working exampl
     - POS provide by pretrained model from https://github.com/datquocnguyen/jPTDP
 - NLU: 
     - extract intent from text: want_to_transfer - want_to_rec - other
-    - extract entities from text: name_person, name_orgainzer (ie name bank), card_number.
+    - extract entities from text: name_person, name_orgainzer (ie name bank), card_number, phone_number.
 - Dataset:
     - Use simple generate dataset by specifices structure.
     - Crawl comment from facebook, voz, tinhte.vn,... for label Other.
