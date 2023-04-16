@@ -58,5 +58,11 @@ This is a simple Python/FastAPI application intended to provide a working exampl
     - Register speaker from short utt: i.e 1-3 (s) speech.
     - Verify speaker from short utt by average cosine similarity frame wise.
 
+# Runserver 
+
+- speaker: uvicorn spk/apis/predict:app --host=0.0.0.0 --port=30145 
+- nlu: uvicorn nlu/apis/predict:app --host=0.0.0.0 --port=30145 
+
+
 
     
